@@ -1,4 +1,4 @@
-Flask-Sessionstore2
+Flask-Sessionstore3
 ==================
 Updated to from cachelib.file import FileSystemCache for Flask 2.0
 
