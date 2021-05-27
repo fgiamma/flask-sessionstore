@@ -11,8 +11,8 @@ from setuptools import find_packages
 
 setup(
     name='Flask-Sessionstore3',
-    version='0.4.6',
-    url='https://github.com/fgiamma/flask-sessionstore2',
+    version='0.4.8',
+    url='https://github.com/fgiamma/flask-sessionstore3',
     license='BSD',
     author='Fabrizio Giammatteo',
     author_email='fabrizio.giammatteo@gmail.com',
@@ -23,7 +23,8 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'Flask>=0.8'
+        'Flask>=0.8',
+        'cachelib>=0.1.1'
     ],
     #package_dir={"": "flask_sessionstore"},
     #packages=find_packages(where="flask_sessionstore"),
