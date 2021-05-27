@@ -7,16 +7,16 @@ Server-side Session to your application.
 
 """
 from setuptools import setup
-from flask_sessionstore import __version__
+from setuptools import find_packages
 
 setup(
-    name='Flask-Sessionstore',
-    version=__version__,
-    url='https://github.com/mcrowson/flask-sessionstore',
+    name='Flask-Sessionstore3',
+    version='0.4.6',
+    url='https://github.com/fgiamma/flask-sessionstore2',
     license='BSD',
-    author='Matthew Crowson',
-    author_email='matthew.d.crowson@gmail.com',
-    description='Adds session support to your Flask application',
+    author='Fabrizio Giammatteo',
+    author_email='fabrizio.giammatteo@gmail.com',
+    description='Adds session support to your Flask application, upgraded to Flask 2.0',
     long_description=__doc__,
     packages=['flask_sessionstore'],
     zip_safe=False,
@@ -25,6 +25,8 @@ setup(
     install_requires=[
         'Flask>=0.8'
     ],
+    #package_dir={"": "flask_sessionstore"},
+    #packages=find_packages(where="flask_sessionstore"),
     test_suite='test_session',
     classifiers=[
         'Environment :: Web Environment',
