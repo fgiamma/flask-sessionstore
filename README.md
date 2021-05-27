@@ -1,6 +1,6 @@
 Flask-Sessionstore
 ==================
-This project is no longer maintained.
+Updated to from cachelib.file import FileSystemCache for Flask 2.0
 
 [![Documentation Status](https://readthedocs.org/projects/flask-sessionstore/badge/?version=latest)](http://flask-sessionstore.readthedocs.io/en/latest/?badge=latest)
 [![Coverage Status](https://coveralls.io/repos/github/mcrowson/flask-session/badge.svg)](https://coveralls.io/github/mcrowson/flask-session) 
