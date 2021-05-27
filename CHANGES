@@ -64,3 +64,10 @@ Version 0.4.5
 `````````````
 - Greater Flask support
 - Added ability for local DynamoDB development
+
+Version 0.4.6
+`````````````
+- Changed file system cache manager for compatibility with Flask 2.0
+
+
+
